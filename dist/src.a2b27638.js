@@ -19145,7 +19145,7 @@ function (_React$Component) {
         className: "f jcc aic site"
       }, _react.default.createElement("div", null, _react.default.createElement("h1", {
         style: {
-          fontSize: 25
+          fontSize: 80
         }
       }, "Welcome to The Afghanistan kankoor"), _react.default.createElement(_reactStrider.Strider, {
         activeIndex: "0",

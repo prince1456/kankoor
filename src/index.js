@@ -21,7 +21,7 @@ class App extends React.Component {
     return (
       <div className="f jcc aic site">
         <div>
-          <h1 style={{fontSize: 25}}>Welcome to The Afghanistan kankoor</h1>
+          <h1 style={{fontSize: 80}}>Welcome to The Afghanistan kankoor</h1>
           <Strider activeIndex="0" transitionSpeed={300}>
             <Step>
               {({ next, goTo, active, hiding, activeIndex }) => (
