@@ -18716,41 +18716,65 @@ module.hot.accept(reloadCSS);
 },{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"src/data.js":[function(require,module,exports) {
 module.exports = {
   1: {
-    question: "How long as The Couch been a company?",
-    fact: "The couch started in April of 2017, but a partnership agreement wasn't technically signed until May",
+    question: "\u062A\u0627\u0631\u06CC\u062E \u0645\u0639\u0627\u0635\u0631 \u0627\u0641\u063A\u0627\u0646\u0633\u062A\u0627\u0646 \u0627\u0632 \u06A9\u062F\u0627\u0645 \u062A\u0627\u0631\u06CC\u062E \u0627\u063A\u0627\u0632 \u0645\u06CC \u06AF\u0631\u062F\u062F",
+    fact: "\u062C\u0648\u0627\u0628 \u062F\u0631\u0633\u062A \u0627\u0632 \u062D\u06A9\u0648\u0645\u062A \u0627\u0645\u0627\u0646 \u0627\u0644\u0644\u0647 \u062E\u0627\u0646 \u0627\u0628\u062F\u0627\u0644\u06CC \u0627\u0633\u062A ",
     choices: [{
       id: Math.random(),
-      item: "About a Year",
+      item: "از حکومت محمود غزنوی",
       answer: true
     }, {
       id: Math.random(),
-      item: "Over 5 Years",
+      item: "از حکومت امان الله خان",
+      answer: false
+    }, {
+      id: Math.random(),
+      item: " از حکومت احمدشاه ابدالی",
+      answer: true
+    }, {
+      id: Math.random(),
+      item: "از حکومت محمد ظاهرشاه",
       answer: false
     }]
   },
   2: {
-    question: "What was the first client of The Couch?",
-    fact: "The Wing was the project that allowed us to kick things into gear, once we solidifed a few more projects we went all in and commited to The Couch.",
+    question: "\u0641\u0642\u062F\u0627\u0646 \u06A9\u062F\u0627\u0645 \u0648\u06CC\u062A\u0627\u0645\u06CC\u0646 \u0628\u0627\u0639\u062B \u0628\u0648\u062C\u0648\u062F \u0622\u0645\u062F\u0646 \u0645\u0631\u0636 \u0634\u06A9\u0631 \u062F\u0631 \u0648\u062C\u0648\u062F \u0627\u0646\u0633\u0627\u0646 \u0645\u06CC\u0634\u0648\u062F\u061F",
+    fact: "\u0648\u06CC\u062A\u0627\u0645\u06CC \u0633\u06CC \u062C\u0648\u0627\u0628 \u062F\u0631\u0633\u062A \u0627\u0633\u062A",
     choices: [{
       id: Math.random(),
-      item: "The Wing",
+      item: "Cویتامین:",
       answer: true
     }, {
       id: Math.random(),
-      item: "Wool & Oak",
+      item: "Dویتامین",
+      answer: false
+    }, {
+      id: Math.random(),
+      item: "cویتامین",
+      answer: false
+    }, {
+      id: Math.random(),
+      item: "aویتامین",
       answer: false
     }]
   },
   3: {
-    question: "Where does The Couch get their clients from?",
-    fact: "The Couch is currently entirely referral based. Which is great because we don't have time to chase down leads we're busy making the internet ;)",
+    question: "\u062F\u0631 \u0647\u0646\u06AF\u0627\u0645 \u0645\u0631\u06CC\u0636\u06CC \u06A9\u062F\u0627\u0645 \u06A9\u0631\u06CC\u0648\u0627\u062A \u062E\u0648\u0646 \u062F\u0631 \u0628\u062F\u0646 \u0627\u0646\u0633\u0627\u0646 \u0632\u06CC\u0627\u062F \u0645\u06CC\u0634\u0648\u062F\u061F",
+    fact: "\u062C\u0648\u0627\u0628 \u062F\u0631\u0633\u062A \u06A9\u0631\u06CC\u0648\u0627\u062A \u0633\u0631\u062E \u0627\u0633\u062A",
     choices: [{
       id: Math.random(),
-      item: "Linkedin Spamming",
+      item: "کریوات سرخ",
       answer: false
     }, {
       id: Math.random(),
-      item: "Referrals",
+      item: "کریوات سفید ",
+      answer: true
+    }, {
+      id: Math.random(),
+      item: "  :کریوات زرد",
+      answer: true
+    }, {
+      id: Math.random(),
+      item: "کریوات سبز ",
       answer: true
     }]
   }
@@ -19309,7 +19333,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57173" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59363" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

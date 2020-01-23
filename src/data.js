@@ -1,48 +1,78 @@
 module.exports = {
   1: {
-    question: `How long as The Couch been a company?`,
-    fact: `The couch started in April of 2017, but a partnership agreement wasn't technically signed until May`,
+    question: `تاریخ معاصر افغانستان از کدام تاریخ اغاز می گردد`,
+    fact: `جواب درست از حکومت امان الله خان ابدالی است `,
     choices: [
       {
         id: Math.random(),
-        item: "About a Year",
+        item: "از حکومت محمود غزنوی",
         answer: true
       },
       {
         id: Math.random(),
-        item: "Over 5 Years",
+        item: "از حکومت امان الله خان",
+        answer: false
+      },
+      {
+        id: Math.random(),
+        item: " از حکومت احمدشاه ابدالی",
+        answer: true
+      },
+      {
+        id: Math.random(),
+        item: "از حکومت محمد ظاهرشاه",
         answer: false
       }
     ]
   },
   2: {
-    question: `What was the first client of The Couch?`,
-    fact: `The Wing was the project that allowed us to kick things into gear, once we solidifed a few more projects we went all in and commited to The Couch.`,
+    question: `فقدان کدام ویتامین باعث بوجود آمدن مرض شکر در وجود انسان میشود؟`,
+    fact: `ویتامی سی جواب درست است`,
     choices: [
       {
         id: Math.random(),
-        item: "The Wing",
+        item: "Cویتامین:",
         answer: true
       },
       {
         id: Math.random(),
-        item: "Wool & Oak",
+        item: "Dویتامین",
+        answer: false
+      },
+      {
+        id: Math.random(),
+        item: "cویتامین",
+        answer: false
+      },
+      {
+        id: Math.random(),
+        item: "aویتامین",
         answer: false
       }
     ]
   },
   3: {
-    question: `Where does The Couch get their clients from?`,
-    fact: `The Couch is currently entirely referral based. Which is great because we don't have time to chase down leads we're busy making the internet ;)`,
+    question: `در هنگام مریضی کدام کریوات خون در بدن انسان زیاد میشود؟`,
+    fact: `جواب درست کریوات سرخ است`,
     choices: [
       {
         id: Math.random(),
-        item: "Linkedin Spamming",
+        item: "کریوات سرخ",
         answer: false
       },
       {
         id: Math.random(),
-        item: "Referrals",
+        item: "کریوات سفید ",
+        answer: true
+      },
+      {
+        id: Math.random(),
+        item: "  :کریوات زرد",
+        answer: true
+      },
+      {
+        id: Math.random(),
+        item: "کریوات سبز ",
         answer: true
       }
     ]
