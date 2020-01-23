@@ -135,10 +135,9 @@ class QuizEnd extends React.Component {
     const { score } = this.props;
     return (
       <div className="mha container--q">
-        <h4>You scored a {score}/3!</h4>
+        <h4>امتیاز شما است  {score}/3!</h4>
         <p>
-          If you enjoyed this quiz we'd love to work with you. Check us out on{" "}
-          <a href="https://thecouch.nyc">the internet</a>
+         تبریک باشد به خاطر قبول شدن در این مرحله {" "}
         </p>
       </div>
     );

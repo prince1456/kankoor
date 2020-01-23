@@ -18721,7 +18721,7 @@ module.exports = {
     choices: [{
       id: Math.random(),
       item: "از حکومت محمود غزنوی",
-      answer: true
+      answer: false
     }, {
       id: Math.random(),
       item: "از حکومت امان الله خان",
@@ -18767,11 +18767,11 @@ module.exports = {
     }, {
       id: Math.random(),
       item: "کریوات سفید ",
-      answer: true
+      answer: false
     }, {
       id: Math.random(),
       item: "  :کریوات زرد",
-      answer: true
+      answer: false
     }, {
       id: Math.random(),
       item: "کریوات سبز ",
@@ -19021,7 +19021,7 @@ function (_Component) {
         className: "px1 quiz__material anwser container--q mha"
       }, _react.default.createElement("span", {
         className: "cw quiz__material_qstep"
-      }, "Question ", number, " of 3"), _react.default.createElement("div", {
+      }, "\u0633\u0648\u0627\u0644 ", number, " of 3"), _react.default.createElement("div", {
         className: (0, _classnames.default)("quiz__material_answer", {
           active: choice && answerShow
         })
@@ -19036,7 +19036,7 @@ function (_Component) {
         className: (0, _classnames.default)("px1 quiz__material question container--q mha")
       }, _react.default.createElement("span", {
         className: "cw quiz__material_qstep"
-      }, "Question ", number, " of 3"), _react.default.createElement("h4", {
+      }, "\u0633\u0648\u0627\u0644 ", number, " \u0627\u0632 3"), _react.default.createElement("h4", {
         className: (0, _classnames.default)("cw quiz__material_question", {
           hiding: hiding
         })
@@ -19069,7 +19069,7 @@ function (_Component) {
         clickHandle: function clickHandle() {
           return _this4.handleNext();
         }
-      }, number === 3 ? "Calculate Score" : "Next Question")))))));
+      }, number === 3 ? "\u0645\u062D\u0627\u0633\u0628\u0647 \u0627\u0645\u062A\u06CC\u0627\u0632\u0627\u062A" : "\u0633\u0648\u0627\u0644 \u0628\u0639\u062F\u06CC")))))));
     }
   }]);
 
@@ -19295,9 +19295,7 @@ function (_React$Component3) {
       var score = this.props.score;
       return _react.default.createElement("div", {
         className: "mha container--q"
-      }, _react.default.createElement("h4", null, "You scored a ", score, "/3!"), _react.default.createElement("p", null, "If you enjoyed this quiz we'd love to work with you. Check us out on", " ", _react.default.createElement("a", {
-        href: "https://thecouch.nyc"
-      }, "the internet")));
+      }, _react.default.createElement("h4", null, "\u0627\u0645\u062A\u06CC\u0627\u0632 \u0634\u0645\u0627 \u0627\u0633\u062A  ", score, "/3!"), _react.default.createElement("p", null, "\u062A\u0628\u0631\u06CC\u06A9 \u0628\u0627\u0634\u062F \u0628\u0647 \u062E\u0627\u0637\u0631 \u0642\u0628\u0648\u0644 \u0634\u062F\u0646 \u062F\u0631 \u0627\u06CC\u0646 \u0645\u0631\u062D\u0644\u0647 ", " "));
     }
   }]);
 

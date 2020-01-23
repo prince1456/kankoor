@@ -6,7 +6,7 @@ module.exports = {
       {
         id: Math.random(),
         item: "از حکومت محمود غزنوی",
-        answer: true
+        answer: false
       },
       {
         id: Math.random(),
@@ -63,12 +63,12 @@ module.exports = {
       {
         id: Math.random(),
         item: "کریوات سفید ",
-        answer: true
+        answer: false
       },
       {
         id: Math.random(),
         item: "  :کریوات زرد",
-        answer: true
+        answer: false
       },
       {
         id: Math.random(),
