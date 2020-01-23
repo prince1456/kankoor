@@ -21,7 +21,7 @@ class App extends React.Component {
     return (
       <div className="f jcc aic site">
         <div>
-          <h1>React Strider Working Example</h1>
+          <h1 style={{fontSize: 25}}>Welcome to The Afghanistan kankoor</h1>
           <Strider activeIndex="0" transitionSpeed={300}>
             <Step>
               {({ next, goTo, active, hiding, activeIndex }) => (
@@ -118,12 +118,12 @@ class QuizStart extends React.Component {
   render() {
     return (
       <div>
-        <h4>Welcome to React Strider Quiz Example!</h4>
+        <h4 style={{fontSize: 18}}>مزمون تاریخ افغانستان</h4>
         <Button
           classes={`f jcb mt1 regular bold cw`}
           clickHandle={() => this.props.next()}
         >
-          Start Quiz
+          ازمون را شروع کن
         </Button>
       </div>
     );
